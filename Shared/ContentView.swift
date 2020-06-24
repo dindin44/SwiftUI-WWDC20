@@ -40,6 +40,10 @@ struct ContentView: View {
                     }
                 }
             }
+            
+            Text("Click on something to learn!")
+                .font(.largeTitle)
+                
                 .navigationTitle("What's new in SwiftUI")
         }
     }
