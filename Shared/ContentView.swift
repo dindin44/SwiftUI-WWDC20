@@ -21,6 +21,7 @@ struct ContentView: View {
         case progress = "ProgressView"
         case video = "VideoPlayer"
         case datePicker = "Date Picker"
+        case colorPicker = "Color Picker"
         case link = "Link"
     }
     private var sections: [SectionType] = SectionType.allCases
@@ -72,6 +73,8 @@ struct ContentView: View {
                 ListChildrenExampleView()
             case .matchedGeometry:
                 MatchedGeometryEffectExampleView()
+            case .colorPicker:
+                ColorPickerExampleView()
             }
         }
     }
