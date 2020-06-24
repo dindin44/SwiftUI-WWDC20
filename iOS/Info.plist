@@ -29,8 +29,8 @@
 	<true/>
 	<key>UILaunchScreen</key>
 	<dict>
-		<key>UIColorName</key>
-		<string>Orange</string>
+		<key>UIImageName</key>
+		<string>swift-ui-logo</string>
 	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
