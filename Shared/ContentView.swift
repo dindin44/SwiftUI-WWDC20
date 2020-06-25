@@ -16,6 +16,7 @@ struct ContentView: View {
         case scaledMetric = "ScaledMetric"
         case stateObject = "StateObject"
         case matchedGeometry = "MatchedGeometryEffect"
+        case containerRelative = "ContainerRelativeShape"
         case toolbar = "Toolbar"
         case map = "Maps"
         case progress = "ProgressView"
@@ -79,6 +80,8 @@ struct ContentView: View {
                 MatchedGeometryEffectExampleView()
             case .colorPicker:
                 ColorPickerExampleView()
+            case .containerRelative:
+                ContainerRelativeShapeExampleView()
             }
         }
     }
