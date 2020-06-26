@@ -46,6 +46,8 @@
 		A3A587AD24A39866005A8454 /* ListChildrenExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A587AB24A39866005A8454 /* ListChildrenExampleView.swift */; };
 		A3A587AF24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A587AE24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift */; };
 		A3A587B024A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A587AE24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift */; };
+		A3CE46ED24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE46EC24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift */; };
+		A3CE46EE24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE46EC24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift */; };
 		A3FADA7A24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FADA7924A3B43800B44300 /* ColorPickerExampleView.swift */; };
 		A3FADA7B24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FADA7924A3B43800B44300 /* ColorPickerExampleView.swift */; };
 /* End PBXBuildFile section */
@@ -125,6 +127,7 @@
 		A3A587A824A3945D005A8454 /* StateObjectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectExampleView.swift; sourceTree = "<group>"; };
 		A3A587AB24A39866005A8454 /* ListChildrenExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChildrenExampleView.swift; sourceTree = "<group>"; };
 		A3A587AE24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectExampleView.swift; sourceTree = "<group>"; };
+		A3CE46EC24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerRelativeShapeExampleView.swift; sourceTree = "<group>"; };
 		A3FADA7924A3B43800B44300 /* ColorPickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,6 +219,7 @@
 				A3A587AB24A39866005A8454 /* ListChildrenExampleView.swift */,
 				A3A587AE24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift */,
 				A3FADA7924A3B43800B44300 /* ColorPickerExampleView.swift */,
+				A3CE46EC24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -426,6 +430,7 @@
 				A3FADA7A24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */,
 				A3A5879A24A36CE1005A8454 /* DatePickerExampleView.swift in Sources */,
 				A3A5879D24A36D64005A8454 /* MapExampleView.swift in Sources */,
+				A3CE46ED24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift in Sources */,
 				A3A587A024A36EA2005A8454 /* VideoExampleView.swift in Sources */,
 				A3A587A624A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879424A36217005A8454 /* ToolbarExampleView.swift in Sources */,
@@ -448,6 +453,7 @@
 				A3FADA7B24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */,
 				A3A5879B24A36CE1005A8454 /* DatePickerExampleView.swift in Sources */,
 				A3A5879E24A36D64005A8454 /* MapExampleView.swift in Sources */,
+				A3CE46EE24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift in Sources */,
 				A3A587A124A36EA2005A8454 /* VideoExampleView.swift in Sources */,
 				A3A587A724A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879524A36217005A8454 /* ToolbarExampleView.swift in Sources */,

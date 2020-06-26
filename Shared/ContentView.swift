@@ -16,6 +16,7 @@ struct ContentView: View {
         case scaledMetric = "ScaledMetric"
         case stateObject = "StateObject"
         case matchedGeometry = "MatchedGeometryEffect"
+        case containerRelative = "Container Relative Shape"
         case toolbar = "Toolbar"
         case map = "Maps"
         case progress = "ProgressView"
