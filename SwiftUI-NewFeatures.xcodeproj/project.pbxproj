@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4138F66124A6564A00DD7736 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4138F63E24A6564A00DD7736 /* LICENSE.txt */; };
+		4138F66224A6564A00DD7736 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4138F63E24A6564A00DD7736 /* LICENSE.txt */; };
+		4138F66324A6564A00DD7736 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4138F63E24A6564A00DD7736 /* LICENSE.txt */; };
+		4138F66424A6564A00DD7736 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4138F63E24A6564A00DD7736 /* LICENSE.txt */; };
+		4138F66524A6564A00DD7736 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4138F63F24A6564A00DD7736 /* OpenSans-Regular.ttf */; };
+		4138F66624A6564A00DD7736 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4138F63F24A6564A00DD7736 /* OpenSans-Regular.ttf */; };
+		4138F66724A6564A00DD7736 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4138F63F24A6564A00DD7736 /* OpenSans-Regular.ttf */; };
+		4138F66824A6564A00DD7736 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4138F63F24A6564A00DD7736 /* OpenSans-Regular.ttf */; };
 		415DD04324A3F93800D3844F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD04224A3F93800D3844F /* Assets.xcassets */; };
 		415DD04A24A3F93900D3844F /* Gauge Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 415DD04924A3F93900D3844F /* Gauge Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		415DD04F24A3F93900D3844F /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415DD04E24A3F93900D3844F /* SwiftUI_NewFeaturesApp.swift */; };
@@ -16,6 +24,8 @@
 		415DD05724A3F93A00D3844F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD05624A3F93A00D3844F /* Assets.xcassets */; };
 		415DD05A24A3F93A00D3844F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD05924A3F93A00D3844F /* Preview Assets.xcassets */; };
 		415DD05F24A3F93A00D3844F /* Gauge.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 415DD04024A3F93700D3844F /* Gauge.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41AA02AD24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */; };
+		41AA02AE24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */; };
 		41F4327124A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */; };
 		41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */; };
 		A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
@@ -97,6 +107,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4138F63E24A6564A00DD7736 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		4138F63F24A6564A00DD7736 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		415DD04024A3F93700D3844F /* Gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		415DD04224A3F93800D3844F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		415DD04424A3F93800D3844F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +121,7 @@
 		415DD05924A3F93A00D3844F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		415DD05B24A3F93A00D3844F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		415DD05C24A3F93A00D3844F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExampleView.swift; sourceTree = "<group>"; };
 		41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleIOSExampleView.swift; sourceTree = "<group>"; };
 		41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleMacOSExampleView.swift; sourceTree = "<group>"; };
 		A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NewFeaturesApp.swift; sourceTree = "<group>"; };
@@ -160,6 +173,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4138F63524A6564A00DD7736 /* Open_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				4138F63E24A6564A00DD7736 /* LICENSE.txt */,
+				4138F63F24A6564A00DD7736 /* OpenSans-Regular.ttf */,
+			);
+			path = Open_Sans;
+			sourceTree = "<group>";
+		};
 		415DD04124A3F93700D3844F /* Gauge */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +229,7 @@
 		A3A0184E24A3522700D673B9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4138F63524A6564A00DD7736 /* Open_Sans */,
 				A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */,
 				A3A0185024A3522700D673B9 /* ContentView.swift */,
 				A3A0185124A3522800D673B9 /* Assets.xcassets */,
@@ -224,6 +247,7 @@
 				A3A587AE24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift */,
 				A3FADA7924A3B43800B44300 /* ColorPickerExampleView.swift */,
 				A3CE46EC24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift */,
+				41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -380,7 +404,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138F66324A6564A00DD7736 /* LICENSE.txt in Resources */,
 				415DD04324A3F93800D3844F /* Assets.xcassets in Resources */,
+				4138F66724A6564A00DD7736 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +414,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138F66424A6564A00DD7736 /* LICENSE.txt in Resources */,
 				415DD05A24A3F93A00D3844F /* Preview Assets.xcassets in Resources */,
+				4138F66824A6564A00DD7736 /* OpenSans-Regular.ttf in Resources */,
 				415DD05724A3F93A00D3844F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +425,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138F66124A6564A00DD7736 /* LICENSE.txt in Resources */,
 				A3A0186624A3522800D673B9 /* Assets.xcassets in Resources */,
+				4138F66524A6564A00DD7736 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +435,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138F66224A6564A00DD7736 /* LICENSE.txt in Resources */,
 				A3A0186724A3522800D673B9 /* Assets.xcassets in Resources */,
+				4138F66624A6564A00DD7736 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +470,7 @@
 				A3A5879A24A36CE1005A8454 /* DatePickerExampleView.swift in Sources */,
 				A3A5879D24A36D64005A8454 /* MapExampleView.swift in Sources */,
 				A3CE46ED24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift in Sources */,
+				41AA02AD24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */,
 				A3A587A024A36EA2005A8454 /* VideoExampleView.swift in Sources */,
 				A3A587A624A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879424A36217005A8454 /* ToolbarExampleView.swift in Sources */,
@@ -462,6 +495,7 @@
 				A3A5879B24A36CE1005A8454 /* DatePickerExampleView.swift in Sources */,
 				A3A5879E24A36D64005A8454 /* MapExampleView.swift in Sources */,
 				A3CE46EE24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift in Sources */,
+				41AA02AE24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */,
 				A3A587A124A36EA2005A8454 /* VideoExampleView.swift in Sources */,
 				A3A587A724A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879524A36217005A8454 /* ToolbarExampleView.swift in Sources */,
@@ -494,7 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				IBSC_MODULE = Gauge_Extension;
 				INFOPLIST_FILE = Gauge/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vijaykumar.dinesh.SwiftUI-NewFeatures.watchkitapp";
@@ -514,7 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				IBSC_MODULE = Gauge_Extension;
 				INFOPLIST_FILE = Gauge/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vijaykumar.dinesh.SwiftUI-NewFeatures.watchkitapp";
@@ -534,7 +568,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Gauge Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Gauge Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,7 +592,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Gauge Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Gauge Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -694,7 +728,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -716,7 +750,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -742,7 +776,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -767,7 +801,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;

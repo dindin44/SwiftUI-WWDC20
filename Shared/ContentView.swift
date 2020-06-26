@@ -26,6 +26,7 @@ struct ContentView: View {
         case link = "Link"
         case paging = "Paging View"
         case navigationTitle = "Navigation title"
+      case textEditor = "Text editor"
     }
     private var sections: [SectionType] = SectionType.allCases
     
@@ -89,6 +90,8 @@ struct ContentView: View {
                 Text("See code in SwiftUI_NewFeaturesApp.swift")
             case .navigationTitle:
               NavigationTitleExampleView()
+            case .textEditor:
+              TextEditorExampleView()
             }
         }
     }
