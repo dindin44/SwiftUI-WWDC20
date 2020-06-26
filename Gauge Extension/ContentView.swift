@@ -8,23 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+  @State var isCircular = false
   @State var sliderValue = Double()
-  
   var body: some View {
     VStack {
-      Gauge(value: sliderValue, in: 0...1) {
-        Text("Gauge")
+      Toggle(isOn: $isCircular) {
+        Text("Circular")
       }
-      .gaugeStyle(LinearGaugeStyle())
-      //.gaugeStyle(LinearGaugeStyle())
-      .cornerRadius(20)
-      .frame(maxHeight: .infinity)
+      if isCircular {
+        GaugeView(sliderValue: sliderValue)
+        .gaugeStyle(CircularGaugeStyle())
+      }
+      else {
+        GaugeView(sliderValue: sliderValue)
+        .gaugeStyle(LinearGaugeStyle())
+      }
       Text("\(sliderValue)")
       Slider(value: $sliderValue, in: 0...1) {
         Text("Slider")
       }
     }
     .padding()
+  }
+}
+
+struct GaugeView: View {
+  let sliderValue: Double
+  var body: some View {
+    VStack {
+      Gauge(value: sliderValue, in: 0...1) {
+        Text("Gauge")
+      }
+      .frame(maxHeight: .infinity)
+    }
   }
 }
 
