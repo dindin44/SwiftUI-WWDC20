@@ -33,7 +33,6 @@
 		A3444C1124A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */; };
 		A3444C1224A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */; };
 		A3444C1424A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */; };
-		A3444C1524A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */; };
 		A3444C1724A6A21E00CD6E6D /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1624A6A21E00CD6E6D /* SectionType.swift */; };
 		A3444C1824A6A21E00CD6E6D /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1624A6A21E00CD6E6D /* SectionType.swift */; };
 		A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
@@ -524,7 +523,6 @@
 				A3A5879524A36217005A8454 /* ToolbarExampleView.swift in Sources */,
 				A3A587A424A38E38005A8454 /* AppStorageExampleView.swift in Sources */,
 				A3A5879824A3680E005A8454 /* ProgressExampleView.swift in Sources */,
-				A3444C1524A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */,
 				A3A0186324A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
