@@ -9,67 +9,69 @@ import SwiftUI
 
 struct ContentView: View {
     enum SectionType: String, CaseIterable {
-        case grid = "Grid Layout"
-        case scroll = "ScrollViewReader"
-        case listChildren = "List Children"
-        case appstorage = "AppStorage"
-        case scaledMetric = "ScaledMetric"
-        case stateObject = "StateObject"
-        case matchedGeometry = "MatchedGeometryEffect"
-        case containerRelative = "Container Relative Shape"
-        case toolbar = "Toolbar"
-        case map = "Maps"
-        case progress = "ProgressView"
-        case video = "VideoPlayer"
-        case datePicker = "Date Picker"
-        case colorPicker = "Color Picker"
-        case link = "Link"
-        case paging = "Paging View"
-        case navigationTitle = "Navigation title"
-      
-      
-      var sectionView: some View {
-        return Group {
-            switch self {
-            case .grid:
-                GridExampleView()
-            case .scroll:
-                ScrollViewReaderExampleView()
-            case .toolbar:
-                ToolbarExampleView()
-            case .progress:
-                ProgressExampleView()
-            case .datePicker:
-                DatePickerExampleView()
-            case .map:
-                MapExampleView()
-            case .video:
-                VideoExampleView()
-            case .link:
-                EmptyView()
-            case .appstorage:
-                AppStorageExampleView()
-            case .scaledMetric:
-                ScaledMetricExampleView()
-            case .stateObject:
-                StateObjectExampleView()
-            case .listChildren:
-                ListChildrenExampleView()
-            case .matchedGeometry:
-                MatchedGeometryEffectExampleView()
-            case .colorPicker:
-                ColorPickerExampleView()
-            case .containerRelative:
-                ContainerRelativeShapeExampleView()
-            case .paging:
-                Text("See code in SwiftUI_NewFeaturesApp.swift")
-            case .navigationTitle:
-              NavigationTitleExampleView()
-            }
-        }
+      case grid = "Grid Layout"
+      case scroll = "ScrollViewReader"
+      case listChildren = "List Children"
+      case appstorage = "AppStorage"
+      case scaledMetric = "ScaledMetric"
+      case stateObject = "StateObject"
+      case matchedGeometry = "MatchedGeometryEffect"
+      case containerRelative = "Container Relative Shape"
+      case toolbar = "Toolbar"
+      case map = "Maps"
+      case progress = "ProgressView"
+      case video = "VideoPlayer"
+      case datePicker = "Date Picker"
+      case colorPicker = "Color Picker"
+      case link = "Link"
+      case paging = "Paging View"
+      case navigationTitle = "Navigation title"
+      case textEditor = "Text Editor"
+    
+    var sectionView: some View {
+      return Group {
+          switch self {
+          case .grid:
+              GridExampleView()
+          case .scroll:
+              ScrollViewReaderExampleView()
+          case .toolbar:
+              ToolbarExampleView()
+          case .progress:
+              ProgressExampleView()
+          case .datePicker:
+              DatePickerExampleView()
+          case .map:
+              MapExampleView()
+          case .video:
+              VideoExampleView()
+          case .link:
+              EmptyView()
+          case .appstorage:
+              AppStorageExampleView()
+          case .scaledMetric:
+              ScaledMetricExampleView()
+          case .stateObject:
+              StateObjectExampleView()
+          case .listChildren:
+              ListChildrenExampleView()
+          case .matchedGeometry:
+              MatchedGeometryEffectExampleView()
+          case .colorPicker:
+              ColorPickerExampleView()
+          case .containerRelative:
+              ContainerRelativeShapeExampleView()
+          case .paging:
+              Text("See code in SwiftUI_NewFeaturesApp.swift")
+          case .navigationTitle:
+            NavigationTitleExampleView()
+          case .textEditor:
+            TextEditorExampleView()
+          }
       }
     }
-  private var sections: [SectionType] = SectionType.allCases.sorted(by: {$0.rawValue < $1.rawValue})
+  }
+private var sections: [SectionType] = SectionType.allCases.sorted(by: {$0.rawValue < $1.rawValue})
     
     var body: some View {
         NavigationView {
@@ -89,7 +91,6 @@ struct ContentView: View {
             
             Text("Click on something to learn!")
                 .font(.largeTitle)
-                
                 .navigationTitle("What's new in SwiftUI")
         }
     }
