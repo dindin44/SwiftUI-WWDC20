@@ -16,6 +16,8 @@
 		415DD05724A3F93A00D3844F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD05624A3F93A00D3844F /* Assets.xcassets */; };
 		415DD05A24A3F93A00D3844F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD05924A3F93A00D3844F /* Preview Assets.xcassets */; };
 		415DD05F24A3F93A00D3844F /* Gauge.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 415DD04024A3F93700D3844F /* Gauge.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41F4327124A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */; };
+		41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */; };
 		A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186324A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186424A3522800D673B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0185024A3522700D673B9 /* ContentView.swift */; };
@@ -107,6 +109,8 @@
 		415DD05924A3F93A00D3844F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		415DD05B24A3F93A00D3844F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		415DD05C24A3F93A00D3844F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleIOSExampleView.swift; sourceTree = "<group>"; };
+		41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleMacOSExampleView.swift; sourceTree = "<group>"; };
 		A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NewFeaturesApp.swift; sourceTree = "<group>"; };
 		A3A0185024A3522700D673B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3A0185124A3522800D673B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -239,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				A3A0185924A3522800D673B9 /* Info.plist */,
+				41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			children = (
 				A3A0186024A3522800D673B9 /* Info.plist */,
 				A3A0186124A3522800D673B9 /* macOS.entitlements */,
+				41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -424,6 +430,7 @@
 				A3A5878E24A357C4005A8454 /* ScrollViewReaderExampleView.swift in Sources */,
 				A3A587AF24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */,
 				A3A587AC24A39866005A8454 /* ListChildrenExampleView.swift in Sources */,
+				41F4327124A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */,
 				A3A5879124A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587A924A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
 				A3A0186424A3522800D673B9 /* ContentView.swift in Sources */,
@@ -446,6 +453,7 @@
 			files = (
 				A3A5878F24A357C4005A8454 /* ScrollViewReaderExampleView.swift in Sources */,
 				A3A587B024A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */,
+				41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */,
 				A3A587AD24A39866005A8454 /* ListChildrenExampleView.swift in Sources */,
 				A3A5879224A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587AA24A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
