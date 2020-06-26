@@ -32,6 +32,8 @@
 		A3444C0F24A6807600CD6E6D /* DisclosureGroupExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */; };
 		A3444C1124A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */; };
 		A3444C1224A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */; };
+		A3444C1424A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */; };
+		A3444C1524A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */; };
 		A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186324A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186424A3522800D673B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0185024A3522700D673B9 /* ContentView.swift */; };
@@ -130,6 +132,7 @@
 		41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleMacOSExampleView.swift; sourceTree = "<group>"; };
 		A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupExampleView.swift; sourceTree = "<group>"; };
 		A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExampleView.swift; sourceTree = "<group>"; };
+		A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppstoreOverlayExampleView.swift; sourceTree = "<group>"; };
 		A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NewFeaturesApp.swift; sourceTree = "<group>"; };
 		A3A0185024A3522700D673B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3A0185124A3522800D673B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -256,6 +259,7 @@
 				41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */,
 				A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */,
 				A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */,
+				A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -486,6 +490,7 @@
 				A3A5879424A36217005A8454 /* ToolbarExampleView.swift in Sources */,
 				A3A587A324A38E38005A8454 /* AppStorageExampleView.swift in Sources */,
 				A3A5879724A3680E005A8454 /* ProgressExampleView.swift in Sources */,
+				A3444C1424A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */,
 				A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +518,7 @@
 				A3A5879524A36217005A8454 /* ToolbarExampleView.swift in Sources */,
 				A3A587A424A38E38005A8454 /* AppStorageExampleView.swift in Sources */,
 				A3A5879824A3680E005A8454 /* ProgressExampleView.swift in Sources */,
+				A3444C1524A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */,
 				A3A0186324A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

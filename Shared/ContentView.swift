@@ -29,6 +29,7 @@ struct ContentView: View {
         case textEditor = "Text Editor"
         case disclosureGroup = "Disclosure Group"
         case dateFormatting = "Date Formatting"
+        case appstore = "App Store Overlay"
         
         var sectionView: some View {
             return Group {
@@ -73,6 +74,8 @@ struct ContentView: View {
                     DisclosureGroupExampleView()
                 case .dateFormatting:
                     DateFormattingExampleView()
+                case .appstore:
+                    AppstoreOverlayExampleView()
                 }
             }
         }
