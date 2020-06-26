@@ -23,6 +23,7 @@ struct ContentView: View {
         case datePicker = "Date Picker"
         case colorPicker = "Color Picker"
         case link = "Link"
+        case paging = "Paging View"
     }
     private var sections: [SectionType] = SectionType.allCases
     
@@ -79,6 +80,10 @@ struct ContentView: View {
                 MatchedGeometryEffectExampleView()
             case .colorPicker:
                 ColorPickerExampleView()
+            case .containerRelative:
+                ContainerRelativeShapeExampleView()
+            case .paging:
+                Text("See code in SwiftUI_NewFeaturesApp.swift")
             }
         }
     }
