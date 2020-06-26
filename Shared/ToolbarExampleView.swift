@@ -6,7 +6,14 @@
 //
 
 import SwiftUI
-
+#if os(macOS)
+struct ToolbarExampleView: View {
+  var body: some View {
+    Text("Toolbar is currently unavailable in MacOS, despite the fact that it is declared as @available(iOS 14.0, OSX 10.16, tvOS 14.0, watchOS 7.0, *) by Apple, and the deployment target of this project is 10.16. It will be added when this bug is fixed.")
+      .lineLimit(nil)
+  }
+}
+#elseif os(iOS)
 struct ToolbarExampleView: View {
     @State private var books:[Book] = [
         Book(),
@@ -63,3 +70,4 @@ struct Book: Identifiable {
     let id = UUID()
     let text = "Book Text"
 }
+#endif

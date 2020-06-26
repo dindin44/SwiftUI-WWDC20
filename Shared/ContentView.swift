@@ -25,6 +25,7 @@ struct ContentView: View {
         case colorPicker = "Color Picker"
         case link = "Link"
         case paging = "Paging View"
+        case navigationTitle = "Navigation title"
     }
     private var sections: [SectionType] = SectionType.allCases
     
@@ -42,6 +43,7 @@ struct ContentView: View {
                     }
                 }
             }
+            .frame(minWidth: 300, minHeight: 500)
             
             Text("Click on something to learn!")
                 .font(.largeTitle)
@@ -85,6 +87,8 @@ struct ContentView: View {
                 ContainerRelativeShapeExampleView()
             case .paging:
                 Text("See code in SwiftUI_NewFeaturesApp.swift")
+            case .navigationTitle:
+              NavigationTitleExampleView()
             }
         }
     }
