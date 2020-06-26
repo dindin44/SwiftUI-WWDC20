@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41F4326524A6188300D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4326424A6188300D9AD68 /* NavigationTitleIOSExampleView.swift */; };
+		41F4326924A618D900D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4326724A618D900D9AD68 /* NavigationTitleMacOSExampleView.swift */; };
 		A37171A324A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37171A224A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift */; };
 		A37171A424A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37171A224A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift */; };
 		A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41F4326424A6188300D9AD68 /* NavigationTitleIOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleIOSExampleView.swift; sourceTree = "<group>"; };
+		41F4326724A618D900D9AD68 /* NavigationTitleMacOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleMacOSExampleView.swift; sourceTree = "<group>"; };
 		A37171A224A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerRelativeShapeExampleView.swift; sourceTree = "<group>"; };
 		A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NewFeaturesApp.swift; sourceTree = "<group>"; };
 		A3A0185024A3522700D673B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				A3A0185924A3522800D673B9 /* Info.plist */,
+				41F4326424A6188300D9AD68 /* NavigationTitleIOSExampleView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			children = (
 				A3A0186024A3522800D673B9 /* Info.plist */,
 				A3A0186124A3522800D673B9 /* macOS.entitlements */,
+				41F4326724A618D900D9AD68 /* NavigationTitleMacOSExampleView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 				A3A587A624A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879424A36217005A8454 /* ToolbarExampleView.swift in Sources */,
 				A3A587A324A38E38005A8454 /* AppStorageExampleView.swift in Sources */,
+				41F4326524A6188300D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */,
 				A3A5879724A3680E005A8454 /* ProgressExampleView.swift in Sources */,
 				A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */,
 			);
@@ -268,6 +275,7 @@
 			files = (
 				A3A5878F24A357C4005A8454 /* ScrollViewReaderExampleView.swift in Sources */,
 				A3A587B024A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */,
+				41F4326924A618D900D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */,
 				A3A587AD24A39866005A8454 /* ListChildrenExampleView.swift in Sources */,
 				A3A5879224A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587AA24A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
@@ -452,7 +460,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -476,7 +484,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;

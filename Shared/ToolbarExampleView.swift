@@ -22,18 +22,18 @@ struct ToolbarExampleView: View {
             Text("Book Detail")
         }
         .navigationTitle("Toolbar")
-        .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: addBook) {
-                    Label("Add", systemImage: "plus")
-                }
-            }
-            ToolbarItem(placement: .bottomBar) {
-                Button(action: removeBook) {
-                    Label("Remove", systemImage: "trash")
-                }
-            }
-        }
+//        .toolbar {
+//            ToolbarItem(placement: .navigationBarTrailing) {
+//                Button(action: addBook) {
+//                    Label("Add", systemImage: "plus")
+//                }
+//            }
+//            ToolbarItem(placement: .bottomBar) {
+//                Button(action: removeBook) {
+//                    Label("Remove", systemImage: "trash")
+//                }
+//            }
+//        }
     }
     
     private func addBook() {

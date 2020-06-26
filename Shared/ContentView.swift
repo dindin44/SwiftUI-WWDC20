@@ -42,6 +42,7 @@ struct ContentView: View {
           }
         }
       }
+      .frame(minWidth: 300, minHeight: 500)
       
       Text("Click on something to learn!")
         .font(.largeTitle)
