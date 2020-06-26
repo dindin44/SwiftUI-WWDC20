@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A37171A324A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37171A224A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift */; };
-		A37171A424A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37171A224A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift */; };
+		415DD04324A3F93800D3844F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD04224A3F93800D3844F /* Assets.xcassets */; };
+		415DD04A24A3F93900D3844F /* Gauge Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 415DD04924A3F93900D3844F /* Gauge Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		415DD04F24A3F93900D3844F /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415DD04E24A3F93900D3844F /* SwiftUI_NewFeaturesApp.swift */; };
+		415DD05124A3F93900D3844F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415DD05024A3F93900D3844F /* ContentView.swift */; };
+		415DD05324A3F93900D3844F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415DD05224A3F93900D3844F /* NotificationController.swift */; };
+		415DD05524A3F93900D3844F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415DD05424A3F93900D3844F /* NotificationView.swift */; };
+		415DD05724A3F93A00D3844F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD05624A3F93A00D3844F /* Assets.xcassets */; };
+		415DD05A24A3F93A00D3844F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD05924A3F93A00D3844F /* Preview Assets.xcassets */; };
+		415DD05F24A3F93A00D3844F /* Gauge.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 415DD04024A3F93700D3844F /* Gauge.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186324A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186424A3522800D673B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0185024A3522700D673B9 /* ContentView.swift */; };
@@ -43,8 +50,61 @@
 		A3FADA7B24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FADA7924A3B43800B44300 /* ColorPickerExampleView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		415DD04B24A3F93900D3844F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A0184A24A3522700D673B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415DD04824A3F93900D3844F;
+			remoteInfo = "Gauge Extension";
+		};
+		415DD05D24A3F93A00D3844F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A0184A24A3522700D673B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415DD03F24A3F93700D3844F;
+			remoteInfo = Gauge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		415DD06024A3F93A00D3844F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				415DD05F24A3F93A00D3844F /* Gauge.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DD06324A3F93A00D3844F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				415DD04A24A3F93900D3844F /* Gauge Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		A37171A224A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerRelativeShapeExampleView.swift; sourceTree = "<group>"; };
+		415DD04024A3F93700D3844F /* Gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415DD04224A3F93800D3844F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		415DD04424A3F93800D3844F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415DD04924A3F93900D3844F /* Gauge Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gauge Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		415DD04E24A3F93900D3844F /* SwiftUI_NewFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NewFeaturesApp.swift; sourceTree = "<group>"; };
+		415DD05024A3F93900D3844F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		415DD05224A3F93900D3844F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		415DD05424A3F93900D3844F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		415DD05624A3F93A00D3844F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		415DD05924A3F93A00D3844F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		415DD05B24A3F93A00D3844F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415DD05C24A3F93A00D3844F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NewFeaturesApp.swift; sourceTree = "<group>"; };
 		A3A0185024A3522700D673B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3A0185124A3522800D673B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +129,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		415DD04624A3F93900D3844F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3A0185324A3522800D673B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,12 +153,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		415DD04124A3F93700D3844F /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				415DD04224A3F93800D3844F /* Assets.xcassets */,
+				415DD04424A3F93800D3844F /* Info.plist */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
+		415DD04D24A3F93900D3844F /* Gauge Extension */ = {
+			isa = PBXGroup;
+			children = (
+				415DD04E24A3F93900D3844F /* SwiftUI_NewFeaturesApp.swift */,
+				415DD05024A3F93900D3844F /* ContentView.swift */,
+				415DD05224A3F93900D3844F /* NotificationController.swift */,
+				415DD05424A3F93900D3844F /* NotificationView.swift */,
+				415DD05624A3F93A00D3844F /* Assets.xcassets */,
+				415DD05B24A3F93A00D3844F /* Info.plist */,
+				415DD05C24A3F93A00D3844F /* PushNotificationPayload.apns */,
+				415DD05824A3F93A00D3844F /* Preview Content */,
+			);
+			path = "Gauge Extension";
+			sourceTree = "<group>";
+		};
+		415DD05824A3F93A00D3844F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				415DD05924A3F93A00D3844F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A3A0184924A3522700D673B9 = {
 			isa = PBXGroup;
 			children = (
 				A3A0184E24A3522700D673B9 /* Shared */,
 				A3A0185824A3522800D673B9 /* iOS */,
 				A3A0185F24A3522800D673B9 /* macOS */,
+				415DD04124A3F93700D3844F /* Gauge */,
+				415DD04D24A3F93900D3844F /* Gauge Extension */,
 				A3A0185724A3522800D673B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,7 +216,6 @@
 				A3A587AB24A39866005A8454 /* ListChildrenExampleView.swift */,
 				A3A587AE24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift */,
 				A3FADA7924A3B43800B44300 /* ColorPickerExampleView.swift */,
-				A37171A224A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -125,6 +225,8 @@
 			children = (
 				A3A0185624A3522800D673B9 /* SwiftUI-New.app */,
 				A3A0185E24A3522800D673B9 /* SwiftUI-NewFeatures.app */,
+				415DD04024A3F93700D3844F /* Gauge.app */,
+				415DD04924A3F93900D3844F /* Gauge Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +251,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		415DD03F24A3F93700D3844F /* Gauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415DD06724A3F93A00D3844F /* Build configuration list for PBXNativeTarget "Gauge" */;
+			buildPhases = (
+				415DD03E24A3F93700D3844F /* Resources */,
+				415DD06324A3F93A00D3844F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415DD04C24A3F93900D3844F /* PBXTargetDependency */,
+			);
+			name = Gauge;
+			productName = Gauge;
+			productReference = 415DD04024A3F93700D3844F /* Gauge.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		415DD04824A3F93900D3844F /* Gauge Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415DD06624A3F93A00D3844F /* Build configuration list for PBXNativeTarget "Gauge Extension" */;
+			buildPhases = (
+				415DD04524A3F93900D3844F /* Sources */,
+				415DD04624A3F93900D3844F /* Frameworks */,
+				415DD04724A3F93900D3844F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gauge Extension";
+			productName = "Gauge Extension";
+			productReference = 415DD04924A3F93900D3844F /* Gauge Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		A3A0185524A3522800D673B9 /* iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3A0186A24A3522800D673B9 /* Build configuration list for PBXNativeTarget "iOS" */;
@@ -156,10 +292,12 @@
 				A3A0185224A3522800D673B9 /* Sources */,
 				A3A0185324A3522800D673B9 /* Frameworks */,
 				A3A0185424A3522800D673B9 /* Resources */,
+				415DD06024A3F93A00D3844F /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				415DD05E24A3F93A00D3844F /* PBXTargetDependency */,
 			);
 			name = iOS;
 			productName = iOS;
@@ -192,6 +330,12 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					415DD03F24A3F93700D3844F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					415DD04824A3F93900D3844F = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					A3A0185524A3522800D673B9 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -215,11 +359,30 @@
 			targets = (
 				A3A0185524A3522800D673B9 /* iOS */,
 				A3A0185D24A3522800D673B9 /* macOS */,
+				415DD03F24A3F93700D3844F /* Gauge */,
+				415DD04824A3F93900D3844F /* Gauge Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		415DD03E24A3F93700D3844F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415DD04324A3F93800D3844F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415DD04724A3F93900D3844F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415DD05A24A3F93A00D3844F /* Preview Assets.xcassets in Resources */,
+				415DD05724A3F93A00D3844F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3A0185424A3522800D673B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +402,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		415DD04524A3F93900D3844F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415DD05324A3F93900D3844F /* NotificationController.swift in Sources */,
+				415DD05124A3F93900D3844F /* ContentView.swift in Sources */,
+				415DD04F24A3F93900D3844F /* SwiftUI_NewFeaturesApp.swift in Sources */,
+				415DD05524A3F93900D3844F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3A0185224A3522800D673B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,7 +426,6 @@
 				A3FADA7A24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */,
 				A3A5879A24A36CE1005A8454 /* DatePickerExampleView.swift in Sources */,
 				A3A5879D24A36D64005A8454 /* MapExampleView.swift in Sources */,
-				A37171A324A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift in Sources */,
 				A3A587A024A36EA2005A8454 /* VideoExampleView.swift in Sources */,
 				A3A587A624A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879424A36217005A8454 /* ToolbarExampleView.swift in Sources */,
@@ -275,7 +448,6 @@
 				A3FADA7B24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */,
 				A3A5879B24A36CE1005A8454 /* DatePickerExampleView.swift in Sources */,
 				A3A5879E24A36D64005A8454 /* MapExampleView.swift in Sources */,
-				A37171A424A49E220057ADC9 /* ContainerRelativeShapeExampleView.swift in Sources */,
 				A3A587A124A36EA2005A8454 /* VideoExampleView.swift in Sources */,
 				A3A587A724A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879524A36217005A8454 /* ToolbarExampleView.swift in Sources */,
@@ -287,7 +459,110 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		415DD04C24A3F93900D3844F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 415DD04824A3F93900D3844F /* Gauge Extension */;
+			targetProxy = 415DD04B24A3F93900D3844F /* PBXContainerItemProxy */;
+		};
+		415DD05E24A3F93A00D3844F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 415DD03F24A3F93700D3844F /* Gauge */;
+			targetProxy = 415DD05D24A3F93A00D3844F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		415DD06124A3F93A00D3844F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				IBSC_MODULE = Gauge_Extension;
+				INFOPLIST_FILE = Gauge/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijaykumar.dinesh.SwiftUI-NewFeatures.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		415DD06224A3F93A00D3844F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				IBSC_MODULE = Gauge_Extension;
+				INFOPLIST_FILE = Gauge/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijaykumar.dinesh.SwiftUI-NewFeatures.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		415DD06424A3F93A00D3844F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gauge Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Gauge Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijaykumar.dinesh.SwiftUI-NewFeatures.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		415DD06524A3F93A00D3844F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gauge Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Gauge Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijaykumar.dinesh.SwiftUI-NewFeatures.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
 		A3A0186824A3522800D673B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -450,6 +725,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
@@ -474,6 +750,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7RDN9NJ4XP;
@@ -495,6 +772,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		415DD06624A3F93A00D3844F /* Build configuration list for PBXNativeTarget "Gauge Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415DD06424A3F93A00D3844F /* Debug */,
+				415DD06524A3F93A00D3844F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415DD06724A3F93A00D3844F /* Build configuration list for PBXNativeTarget "Gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415DD06124A3F93A00D3844F /* Debug */,
+				415DD06224A3F93A00D3844F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A3A0184D24A3522700D673B9 /* Build configuration list for PBXProject "SwiftUI-NewFeatures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
