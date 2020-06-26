@@ -91,10 +91,10 @@ struct ContentView: View {
                 }
             }
             .frame(minWidth: 300, minHeight: 500)
+            .navigationTitle("What's new in SwiftUI")
             
             Text("Click on something to learn!")
                 .font(.largeTitle)
-                .navigationTitle("What's new in SwiftUI")
         }
     }
 }
