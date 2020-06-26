@@ -34,6 +34,8 @@
 		A3444C1224A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */; };
 		A3444C1424A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */; };
 		A3444C1524A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */; };
+		A3444C1724A6A21E00CD6E6D /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1624A6A21E00CD6E6D /* SectionType.swift */; };
+		A3444C1824A6A21E00CD6E6D /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1624A6A21E00CD6E6D /* SectionType.swift */; };
 		A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186324A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186424A3522800D673B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0185024A3522700D673B9 /* ContentView.swift */; };
@@ -133,6 +135,7 @@
 		A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupExampleView.swift; sourceTree = "<group>"; };
 		A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExampleView.swift; sourceTree = "<group>"; };
 		A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppstoreOverlayExampleView.swift; sourceTree = "<group>"; };
+		A3444C1624A6A21E00CD6E6D /* SectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionType.swift; sourceTree = "<group>"; };
 		A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NewFeaturesApp.swift; sourceTree = "<group>"; };
 		A3A0185024A3522700D673B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3A0185124A3522800D673B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -260,6 +263,7 @@
 				A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */,
 				A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */,
 				A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */,
+				A3444C1624A6A21E00CD6E6D /* SectionType.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -474,6 +478,7 @@
 				A3A5878E24A357C4005A8454 /* ScrollViewReaderExampleView.swift in Sources */,
 				A3A587AF24A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */,
 				A3A587AC24A39866005A8454 /* ListChildrenExampleView.swift in Sources */,
+				A3444C1724A6A21E00CD6E6D /* SectionType.swift in Sources */,
 				41F4327124A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */,
 				A3A5879124A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587A924A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
@@ -502,6 +507,7 @@
 				A3A5878F24A357C4005A8454 /* ScrollViewReaderExampleView.swift in Sources */,
 				A3A587B024A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */,
 				41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */,
+				A3444C1824A6A21E00CD6E6D /* SectionType.swift in Sources */,
 				A3A587AD24A39866005A8454 /* ListChildrenExampleView.swift in Sources */,
 				A3A5879224A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587AA24A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
