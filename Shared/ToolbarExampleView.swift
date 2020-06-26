@@ -25,7 +25,7 @@ struct ToolbarExampleView: View {
         }
         .navigationTitle("Toolbar")
         .toolbar {
-          ToolbarItem(placement: .automatic) {
+          ToolbarItem(placement: .primaryAction) {
             HStack(spacing: 40) {
                 Button(action: addBook) {
                     Image(systemName: "plus")
