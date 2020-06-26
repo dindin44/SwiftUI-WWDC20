@@ -93,6 +93,7 @@ struct ContentView: View {
                     }
                 }
             }
+            .listStyle(InsetGroupedListStyle())
             .frame(minWidth: 300, minHeight: 500)
             .navigationTitle("What's new in SwiftUI")
             
