@@ -26,35 +26,11 @@ struct ContentView: View {
         case link = "Link"
         case paging = "Paging View"
         case navigationTitle = "Navigation title"
-    }
-    private var sections: [SectionType] = SectionType.allCases
-    
-    var body: some View {
-        NavigationView {
-            List(sections, id: \.self) { section in
-                if section == .link {
-                    Link(destination: URL(string:"https://developer.apple.com/wwdc20/")!) {
-                        Label("Link", systemImage: "link")
-                            .foregroundColor(Color.blue)
-                    }
-                } else {
-                    NavigationLink(destination: getSectionView(for: section)) {
-                        Label(section.rawValue, systemImage: "info.circle")
-                    }
-                }
-            }
-            .frame(minWidth: 300, minHeight: 500)
-            
-            Text("Click on something to learn!")
-                .font(.largeTitle)
-                
-                .navigationTitle("What's new in SwiftUI")
-        }
-    }
-    
-    func getSectionView(for type: SectionType) -> some View {
-        Group {
-            switch type {
+      
+      
+      var sectionView: some View {
+        return Group {
+            switch self {
             case .grid:
                 GridExampleView()
             case .scroll:
@@ -90,6 +66,31 @@ struct ContentView: View {
             case .navigationTitle:
               NavigationTitleExampleView()
             }
+        }
+      }
+    }
+  private var sections: [SectionType] = SectionType.allCases.sorted(by: {$0.rawValue < $1.rawValue})
+    
+    var body: some View {
+        NavigationView {
+            List(sections, id: \.self) { section in
+                if section == .link {
+                    Link(destination: URL(string:"https://developer.apple.com/wwdc20/")!) {
+                        Label("Link", systemImage: "link")
+                            .foregroundColor(Color.blue)
+                    }
+                } else {
+                  NavigationLink(destination: section.sectionView) {
+                        Label(section.rawValue, systemImage: "info.circle")
+                    }
+                }
+            }
+            .frame(minWidth: 300, minHeight: 500)
+            
+            Text("Click on something to learn!")
+                .font(.largeTitle)
+                
+                .navigationTitle("What's new in SwiftUI")
         }
     }
 }
