@@ -14,7 +14,7 @@ struct DatePickerExampleView: View {
         VStack {
             Text("Enter your birthday")
                 .font(.largeTitle)
-            DatePicker("Enter your birthday", selection: $date)
+            DatePicker("Enter your birthday", selection: $date, displayedComponents: .date)
                 .datePickerStyle(GraphicalDatePickerStyle())
                 .frame(maxHeight: 400)
         }
