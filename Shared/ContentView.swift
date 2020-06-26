@@ -84,25 +84,35 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(sections, id: \.self) { section in
-                if section == .link {
-                    Link(destination: URL(string:"https://developer.apple.com/wwdc20/")!) {
-                        Label("Link", systemImage: "link")
-                            .foregroundColor(Color.blue)
-                    }
-                } else {
-                    NavigationLink(destination: section.sectionView) {
-                        Label(section.rawValue, systemImage: "info.circle")
-                    }
-                }
-            }
-            .listStyle(InsetGroupedListStyle())
-            .frame(minWidth: 300, minHeight: 500)
-            .navigationTitle("What's new in SwiftUI")
+            
+            listBody
             
             Text("Click on something to learn!")
                 .font(.largeTitle)
         }
+    }
+    
+    var listBody: some View {
+        let content = List(sections, id: \.self) { section in
+            if section == .link {
+                Link(destination: URL(string:"https://developer.apple.com/wwdc20/")!) {
+                    Label("Link", systemImage: "link")
+                        .foregroundColor(Color.blue)
+                }
+            } else {
+                NavigationLink(destination: section.sectionView) {
+                    Label(section.rawValue, systemImage: "info.circle")
+                }
+            }
+        }
+        .frame(minWidth: 300, minHeight: 500)
+        .navigationTitle("What's new in SwiftUI")
+        
+        #if os(iOS)
+        return content.listStyle(InsetGroupedListStyle())
+        #else
+        return content
+        #endif
     }
 }
 
