@@ -28,6 +28,7 @@ struct ContentView: View {
         case navigationTitle = "Navigation title"
         case textEditor = "Text Editor"
         case disclosureGroup = "Disclosure Group"
+        case dateFormatting = "Date Formatting"
         
         var sectionView: some View {
             return Group {
@@ -70,6 +71,8 @@ struct ContentView: View {
                     TextEditorExampleView()
                 case .disclosureGroup:
                     DisclosureGroupExampleView()
+                case .dateFormatting:
+                    DateFormattingExampleView()
                 }
             }
         }

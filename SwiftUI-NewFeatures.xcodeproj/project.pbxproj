@@ -30,6 +30,8 @@
 		41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */; };
 		A3444C0E24A6807600CD6E6D /* DisclosureGroupExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */; };
 		A3444C0F24A6807600CD6E6D /* DisclosureGroupExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */; };
+		A3444C1124A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */; };
+		A3444C1224A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */; };
 		A3A0186224A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186324A3522800D673B9 /* SwiftUI_NewFeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */; };
 		A3A0186424A3522800D673B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0185024A3522700D673B9 /* ContentView.swift */; };
@@ -127,6 +129,7 @@
 		41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleIOSExampleView.swift; sourceTree = "<group>"; };
 		41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleMacOSExampleView.swift; sourceTree = "<group>"; };
 		A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupExampleView.swift; sourceTree = "<group>"; };
+		A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExampleView.swift; sourceTree = "<group>"; };
 		A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_NewFeaturesApp.swift; sourceTree = "<group>"; };
 		A3A0185024A3522700D673B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3A0185124A3522800D673B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -252,6 +255,7 @@
 				A3CE46EC24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift */,
 				41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */,
 				A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */,
+				A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -469,6 +473,7 @@
 				41F4327124A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */,
 				A3A5879124A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587A924A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
+				A3444C1124A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */,
 				A3444C0E24A6807600CD6E6D /* DisclosureGroupExampleView.swift in Sources */,
 				A3A0186424A3522800D673B9 /* ContentView.swift in Sources */,
 				A3FADA7A24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */,
@@ -495,6 +500,7 @@
 				A3A587AD24A39866005A8454 /* ListChildrenExampleView.swift in Sources */,
 				A3A5879224A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587AA24A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
+				A3444C1224A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */,
 				A3444C0F24A6807600CD6E6D /* DisclosureGroupExampleView.swift in Sources */,
 				A3A0186524A3522800D673B9 /* ContentView.swift in Sources */,
 				A3FADA7B24A3B43800B44300 /* ColorPickerExampleView.swift in Sources */,
