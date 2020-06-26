@@ -26,15 +26,16 @@ struct ToolbarExampleView: View {
         .navigationTitle("Toolbar")
         .toolbar {
           ToolbarItem(placement: .automatic) {
+            HStack(spacing: 40) {
                 Button(action: addBook) {
-                    Label("Add", systemImage: "plus")
+                    Image(systemName: "plus")
                 }
-            }
-            ToolbarItem(placement: .automatic) {
+                
                 Button(action: removeBook) {
-                    Label("Remove", systemImage: "trash")
+                    Image(systemName: "trash")
                 }
             }
+          }
         }
       }
     }
