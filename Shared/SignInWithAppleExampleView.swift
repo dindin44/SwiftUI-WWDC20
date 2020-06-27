@@ -7,13 +7,26 @@
 
 import SwiftUI
 
+extension Color {
+  #if os(macOS)
+  static let systemGray = Color(NSColor.systemGray)
+  static let systemBackground =
+    Color(NSColor.windowBackgroundColor)
+  #elseif os(iOS)
+  static let systemGray = Color(UIColor.systemGray)
+  static let systemBackground =
+    Color(UIColor.systemBackground)
+  #endif
+}
+
 struct SignInWithAppleExampleView: View {
   @State var output = ""
   var body: some View {
     VStack {
       Text("Tap the button to authenticate. You must be signed into an Apple ID on this device.")
         .foregroundColor(.black)
-        .background(Color(UIColor.systemBackground))
+        .padding()
+        .background(Color.systemBackground)
         .padding()
     SignInWithAppleButton(
       .signIn,
@@ -43,7 +56,7 @@ struct SignInWithAppleExampleView: View {
         .padding()
     }
     .frame(maxWidth: .infinity, maxHeight: .infinity)
-    .background(Color(UIColor.systemGray))
+    .background(Color.systemGray)
   }
 }
 
