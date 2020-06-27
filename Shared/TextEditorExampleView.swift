@@ -37,11 +37,13 @@ enum WeightType: String, CaseIterable {
 }
 
 struct TextEditorExampleView: View {
-  @State private var text: String = "This example also uses the new Dynamic Type syntax"
+  @State private var text: String = ""
   @State private var fontWeight = WeightType.regular
   @State private var fontSize = CGFloat(12)
   @State private var customFont = true
+  @State private var foregroundColor = Color.primary
   var body: some View {
+    ScrollView(.vertical) {
     VStack {
       Picker(selection: $fontWeight, label: EmptyView()) {
         ForEach(WeightType.allCases, id: \.self) { fontWeight in
@@ -50,19 +52,23 @@ struct TextEditorExampleView: View {
       }
       .frame(height: 130)
       .offset(y: -25)
+      
       Stepper(value: $fontSize, in: 1...100) {
         Text("Font size: \(String(format: "%.1f", fontSize))")
       }
+      HStack {
       Button("Clear text") {
         self.text = ""
       }
+        ColorPicker(".foregroundColor", selection: $foregroundColor)
+      }
       TextEditor(text: $text)
         .font(.system(size: fontSize, weight: self.fontWeight.weight))
-        .padding()
-        
-        
+        .foregroundColor(foregroundColor)
+        .frame(height: 300)
     }
     .padding(.horizontal)
+    }
   }
 }
 
