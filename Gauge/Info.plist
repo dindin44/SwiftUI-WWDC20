@@ -12,10 +12,10 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-  <key>UIAppFonts</key>
-  <array>
-    <string>CuteFont-Regular.ttf</string>
-  </array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CuteFont-Regular.ttf</string>
+	</array>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
@@ -30,7 +30,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.vijaykumar.dinesh.SwiftUI-NewFeatures</string>
+	<string>com.vijaykumar.dinesh.SwiftUI-WWDC-Examples</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
