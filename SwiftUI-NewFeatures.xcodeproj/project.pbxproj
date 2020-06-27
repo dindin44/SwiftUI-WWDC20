@@ -26,6 +26,8 @@
 		415DD05F24A3F93A00D3844F /* Gauge.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 415DD04024A3F93700D3844F /* Gauge.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		41AA02AD24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */; };
 		41AA02AE24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */; };
+		41BDA51924A7A1F0006983E1 /* SignInWithAppleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */; };
+		41BDA51A24A7A1F0006983E1 /* SignInWithAppleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */; };
 		41F4327124A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */; };
 		41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */; };
 		A3444C0E24A6807600CD6E6D /* DisclosureGroupExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */; };
@@ -129,6 +131,8 @@
 		415DD05B24A3F93A00D3844F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		415DD05C24A3F93A00D3844F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExampleView.swift; sourceTree = "<group>"; };
+		41BDA51724A7A14E006983E1 /* SwiftUI-New.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-New.entitlements"; sourceTree = "<group>"; };
+		41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleExampleView.swift; sourceTree = "<group>"; };
 		41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleIOSExampleView.swift; sourceTree = "<group>"; };
 		41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleMacOSExampleView.swift; sourceTree = "<group>"; };
 		A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupExampleView.swift; sourceTree = "<group>"; };
@@ -263,6 +267,7 @@
 				A3444C1024A684FF00CD6E6D /* DateFormatterExampleView.swift */,
 				A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */,
 				A3444C1624A6A21E00CD6E6D /* SectionType.swift */,
+				41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 		A3A0185824A3522800D673B9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				41BDA51724A7A14E006983E1 /* SwiftUI-New.entitlements */,
 				A3A0185924A3522800D673B9 /* Info.plist */,
 				41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */,
 			);
@@ -489,6 +495,7 @@
 				A3A5879D24A36D64005A8454 /* MapExampleView.swift in Sources */,
 				A3CE46ED24A60DEF00C6F245 /* ContainerRelativeShapeExampleView.swift in Sources */,
 				41AA02AD24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */,
+				41BDA51924A7A1F0006983E1 /* SignInWithAppleExampleView.swift in Sources */,
 				A3A587A024A36EA2005A8454 /* VideoExampleView.swift in Sources */,
 				A3A587A624A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879424A36217005A8454 /* ToolbarExampleView.swift in Sources */,
@@ -508,6 +515,7 @@
 				41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */,
 				A3444C1824A6A21E00CD6E6D /* SectionType.swift in Sources */,
 				A3A587AD24A39866005A8454 /* ListChildrenExampleView.swift in Sources */,
+				41BDA51A24A7A1F0006983E1 /* SignInWithAppleExampleView.swift in Sources */,
 				A3A5879224A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587AA24A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
 				A3444C1224A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */,
@@ -749,6 +757,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS/SwiftUI-New.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_PREVIEWS = YES;
@@ -771,6 +780,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS/SwiftUI-New.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3J2MVF9M9;
 				ENABLE_PREVIEWS = YES;

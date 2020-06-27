@@ -29,6 +29,7 @@ enum SectionType: String, CaseIterable {
     case disclosureGroup = "Disclosure Group"
     case dateFormatting = "Date Formatting"
     case appstore = "App Store Overlay"
+  case signInWithApple = "Sign in with Apple"
     
     @ViewBuilder
     var sectionView: some View {
@@ -73,6 +74,8 @@ enum SectionType: String, CaseIterable {
             DisclosureGroupExampleView()
         case .dateFormatting:
             DateFormattingExampleView()
+        case .signInWithApple:
+            SignInWithAppleExampleView()
         case .appstore:
             #if os(iOS)
             AppstoreOverlayExampleView()
