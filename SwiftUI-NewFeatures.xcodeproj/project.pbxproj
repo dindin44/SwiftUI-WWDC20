@@ -28,6 +28,8 @@
 		41AA02AE24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */; };
 		41BDA51924A7A1F0006983E1 /* SignInWithAppleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */; };
 		41BDA51A24A7A1F0006983E1 /* SignInWithAppleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */; };
+		41C60AD724A8A572004959A0 /* SpriteViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C60AD624A8A572004959A0 /* SpriteViewExampleView.swift */; };
+		41C60AD824A8A572004959A0 /* SpriteViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C60AD624A8A572004959A0 /* SpriteViewExampleView.swift */; };
 		41F4327124A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */; };
 		41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */; };
 		A3444C0E24A6807600CD6E6D /* DisclosureGroupExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */; };
@@ -133,6 +135,7 @@
 		41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExampleView.swift; sourceTree = "<group>"; };
 		41BDA51724A7A14E006983E1 /* SwiftUI-New.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-New.entitlements"; sourceTree = "<group>"; };
 		41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleExampleView.swift; sourceTree = "<group>"; };
+		41C60AD624A8A572004959A0 /* SpriteViewExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteViewExampleView.swift; sourceTree = "<group>"; };
 		41F4327024A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleIOSExampleView.swift; sourceTree = "<group>"; };
 		41F4327224A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleMacOSExampleView.swift; sourceTree = "<group>"; };
 		A3444C0D24A6807600CD6E6D /* DisclosureGroupExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupExampleView.swift; sourceTree = "<group>"; };
@@ -268,6 +271,7 @@
 				A3444C1324A6881800CD6E6D /* AppstoreOverlayExampleView.swift */,
 				A3444C1624A6A21E00CD6E6D /* SectionType.swift */,
 				41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */,
+				41C60AD624A8A572004959A0 /* SpriteViewExampleView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -487,6 +491,7 @@
 				41F4327124A61D7B00D9AD68 /* NavigationTitleIOSExampleView.swift in Sources */,
 				A3A5879124A358F3005A8454 /* GridExampleView.swift in Sources */,
 				A3A587A924A3945D005A8454 /* StateObjectExampleView.swift in Sources */,
+				41C60AD724A8A572004959A0 /* SpriteViewExampleView.swift in Sources */,
 				A3444C1124A684FF00CD6E6D /* DateFormatterExampleView.swift in Sources */,
 				A3444C0E24A6807600CD6E6D /* DisclosureGroupExampleView.swift in Sources */,
 				A3A0186424A3522800D673B9 /* ContentView.swift in Sources */,
@@ -510,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C60AD824A8A572004959A0 /* SpriteViewExampleView.swift in Sources */,
 				A3A5878F24A357C4005A8454 /* ScrollViewReaderExampleView.swift in Sources */,
 				A3A587B024A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */,
 				41F4327324A61D9200D9AD68 /* NavigationTitleMacOSExampleView.swift in Sources */,

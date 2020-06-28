@@ -30,6 +30,7 @@ enum SectionType: String, CaseIterable {
     case dateFormatting = "Date Formatting"
     case appstore = "App Store Overlay"
   case signInWithApple = "Sign in with Apple"
+  case spriteView = "SpriteView"
     
     @ViewBuilder
     var sectionView: some View {
@@ -82,6 +83,8 @@ enum SectionType: String, CaseIterable {
             #else
             Text("App Store Overlay not supported on Mac OS")
             #endif
+        case .spriteView:
+          SpriteViewExampleView()
         }
     }
 }
