@@ -58,16 +58,27 @@ struct TextEditorExampleView: View {
           Text("Font size: \(String(format: "%.1f", fontSize))")
         }
         HStack {
-          Button("Clear text") {
+          Button("Delete all") {
             self.text = ""
           }
+          .padding()
+          .background(Color.secondary)
+          .foregroundColor(.white)
+          .cornerRadius(5)
           ColourPickerButton(dismissSheet: true, buttonTitle: "Text colour", previousColour: foregroundColor, colour: $foregroundColor, colourPickerShown: $colourPickerShown)
+          RoundedRectangle(cornerRadius: 5)
+            .aspectRatio(1, contentMode: .fit)
+            .foregroundColor(foregroundColor)
           
         }
+        .frame(height: 50)
         TextEditor(text: $text)
           .font(.system(size: fontSize, weight: self.fontWeight.weight))
           .foregroundColor(foregroundColor)
           .frame(height: 300)
+          .padding()
+          .border(Color.secondary, width: 4)
+          
       }
       .padding(.horizontal)
     }
@@ -87,7 +98,8 @@ struct ColourPickerButton: View {
       colourPickerShown.toggle()
     }
     .padding()
-    .background(Color.white)
+    .background(Color.secondary)
+    .foregroundColor(.white)
     .cornerRadius(5)
     .onChange(of: colour) { _ in
       if dismissSheet && colour == previousColour {
