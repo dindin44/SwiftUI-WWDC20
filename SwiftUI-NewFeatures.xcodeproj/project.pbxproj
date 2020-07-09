@@ -24,6 +24,8 @@
 		415DD05724A3F93A00D3844F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD05624A3F93A00D3844F /* Assets.xcassets */; };
 		415DD05A24A3F93A00D3844F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415DD05924A3F93A00D3844F /* Preview Assets.xcassets */; };
 		415DD05F24A3F93A00D3844F /* Gauge.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 415DD04024A3F93700D3844F /* Gauge.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4174D9D624B79EA80059F15F /* LabelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174D9D524B79EA80059F15F /* LabelExampleView.swift */; };
+		4174D9D724B79EA80059F15F /* LabelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174D9D524B79EA80059F15F /* LabelExampleView.swift */; };
 		41AA02AD24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */; };
 		41AA02AE24A64F9D00A28926 /* TextEditorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */; };
 		41BDA51924A7A1F0006983E1 /* SignInWithAppleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */; };
@@ -132,6 +134,7 @@
 		415DD05924A3F93A00D3844F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		415DD05B24A3F93A00D3844F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		415DD05C24A3F93A00D3844F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4174D9D524B79EA80059F15F /* LabelExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelExampleView.swift; sourceTree = "<group>"; };
 		41AA02AC24A64F9D00A28926 /* TextEditorExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExampleView.swift; sourceTree = "<group>"; };
 		41BDA51724A7A14E006983E1 /* SwiftUI-New.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-New.entitlements"; sourceTree = "<group>"; };
 		41BDA51824A7A1F0006983E1 /* SignInWithAppleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleExampleView.swift; sourceTree = "<group>"; };
@@ -247,6 +250,7 @@
 		A3A0184E24A3522700D673B9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4174D9D524B79EA80059F15F /* LabelExampleView.swift */,
 				4138F63524A6564A00DD7736 /* Open_Sans */,
 				A3A0184F24A3522700D673B9 /* SwiftUI_NewFeaturesApp.swift */,
 				A3A0185024A3522700D673B9 /* ContentView.swift */,
@@ -504,6 +508,7 @@
 				A3A587A024A36EA2005A8454 /* VideoExampleView.swift in Sources */,
 				A3A587A624A390B2005A8454 /* ScaledMetricExampleView.swift in Sources */,
 				A3A5879424A36217005A8454 /* ToolbarExampleView.swift in Sources */,
+				4174D9D624B79EA80059F15F /* LabelExampleView.swift in Sources */,
 				A3A587A324A38E38005A8454 /* AppStorageExampleView.swift in Sources */,
 				A3A5879724A3680E005A8454 /* ProgressExampleView.swift in Sources */,
 				A3444C1424A6881800CD6E6D /* AppstoreOverlayExampleView.swift in Sources */,
@@ -515,6 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4174D9D724B79EA80059F15F /* LabelExampleView.swift in Sources */,
 				41C60AD824A8A572004959A0 /* SpriteViewExampleView.swift in Sources */,
 				A3A5878F24A357C4005A8454 /* ScrollViewReaderExampleView.swift in Sources */,
 				A3A587B024A39C8B005A8454 /* MatchedGeometryEffectExampleView.swift in Sources */,
