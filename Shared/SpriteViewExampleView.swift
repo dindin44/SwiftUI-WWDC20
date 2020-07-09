@@ -13,6 +13,7 @@ class GameScene: SKScene {
         physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
     }
 
+  #if os(iOS)
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
         let location = touch.location(in: self)
@@ -21,6 +22,7 @@ class GameScene: SKScene {
         box.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 50, height: 50))
         addChild(box)
     }
+  #endif
 }
 struct SpriteViewExampleView: View {
     var scene: SKScene {
@@ -29,11 +31,15 @@ struct SpriteViewExampleView: View {
         scene.scaleMode = .fill
         return scene
     }
-
+@ViewBuilder
     var body: some View {
+      #if os(macOS)
+      Text("Only available in Mac Catalyst")
+      #else
       SpriteView(scene: scene)
           .frame(width: 300, height: 400)
           .edgesIgnoringSafeArea(.all)
+      #endif
     }
 }
 
