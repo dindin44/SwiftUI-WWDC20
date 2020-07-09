@@ -10,8 +10,11 @@ import StoreKit
 
 struct AppstoreOverlayExampleView: View {
     @State private var showOverlay = false
-    
+    @ViewBuilder
     var body: some View {
+      #if targetEnvironment(macCatalyst)
+      Text("Unavailable in Mac Catalyst")
+      #else
         Button("Show App Store Overlay") {
             showOverlay.toggle()
         }
@@ -19,6 +22,7 @@ struct AppstoreOverlayExampleView: View {
             SKOverlay.AppConfiguration(appIdentifier: "640199958", position: .bottom)
         }
         .navigationTitle("App Store Overlay")
+      #endif
     }
 }
 
