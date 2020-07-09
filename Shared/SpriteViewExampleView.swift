@@ -13,7 +13,6 @@ class GameScene: SKScene {
         physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
     }
 
-  #if os(iOS)
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
         let location = touch.location(in: self)
@@ -22,7 +21,6 @@ class GameScene: SKScene {
         box.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 50, height: 50))
         addChild(box)
     }
-  #endif
 }
 struct SpriteViewExampleView: View {
     var scene: SKScene {
